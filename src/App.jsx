@@ -527,7 +527,7 @@ const Dashboard = ({user, handleLogout}) => {
         <div className="min-h-screen bg-gray-100 font-sans" style={{minWidth: '768px'}}>
             <header className="bg-white shadow-sm">
                 <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
-                    <h1 className="text-2xl font-bold text-blue-600">Meu Orçamento Inteligente</h1>
+                    <h1 className="text-2xl font-bold text-blue-600">Fintera</h1>
                     <div className="flex items-center space-x-4">
                         <span className="text-gray-700 hidden sm:block">Olá, {user.displayName || user.email}</span>
                         <button onClick={handleLogout}
@@ -767,7 +767,7 @@ const AuthPage = () => {
         <div className="min-h-screen bg-gray-100 flex items-center justify-center font-sans p-4"
              style={{minWidth: '768px'}}>
             <div className="w-full max-w-md bg-white rounded-2xl shadow-xl p-8 space-y-6">
-                <h1 className="text-3xl font-bold text-center text-blue-600">Meu Orçamento Inteligente</h1>
+                <h1 className="text-3xl font-bold text-center text-blue-600">Fintera</h1>
                 <p className="text-center text-gray-600">{isLogin ? 'Faça login para acessar sua conta.' : 'Crie sua conta para começar.'}</p>
                 <form onSubmit={handleSubmit} className="space-y-4">
                     {!isLogin && (
